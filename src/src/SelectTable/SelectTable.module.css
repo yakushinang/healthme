@@ -1,0 +1,39 @@
+.tableContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.tableRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 48px;
+    border: 2px solid #f5f5f5;
+    background-color: snow;
+}
+.tableRow span{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.tableRow span:first-child{
+    width: 130px;
+}
+.tableHead{
+    background: #ffe097;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 6px;
+    border-bottom: #c19c46 solid 3px;
+    font-weight: bold;
+}
+
+
+
+
+

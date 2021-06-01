@@ -1,0 +1,15 @@
+import React from 'react';
+import styles from './SelectTable.module.css';
+
+
+const SelecteRow = ({data, onCheck, checked, disabled}) =>{
+    return(
+        <tr>
+            <td> <input type="checkbox" onChange={()=>onCheck(data)} checked={checked} disabled={disabled}/></td>
+            <td>{data.rank}</td>
+            <td>{data.brandName}</td>
+        </tr>
+    )
+}
+
+export default SelecteRow
